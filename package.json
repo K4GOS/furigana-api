@@ -1,0 +1,17 @@
+{
+  "name": "furigana-api",
+  "version": "1.0.0",
+  "description": "Personnal Web API to get the furigana associated to a given text written in japanese",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "kuromoji": "^0.1.2",
+    "nodemon": "^2.0.22"
+  },
+  "type": "module"
+}
